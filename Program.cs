@@ -75,6 +75,7 @@ namespace Assignment_21
 
         static void Main(string[] args)
         {
+            Console.WriteLine("----------Welcome to Learning------------");
             Thread daysThread = new Thread(DisplayDays);
             Thread monthsThread = new Thread(DisplayMonths);
             Thread fruitsThread = new Thread(DisplayFruits);
